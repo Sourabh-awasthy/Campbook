@@ -1,0 +1,74 @@
+.navbar-brand{
+    font-family:"Montserrat-Black";
+    font-size: 1.5rem;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    background-color: lightgrey;
+    
+    padding-top: 5%;
+}
+.row{
+    background-color: antiquewhite;
+}
+.row button{
+    height: 450px;
+    border-width: 0.2px;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Montserrat-Black";
+    position: relative;
+}
+.btn1{
+    background-image: url("freelance-editor-784587.jpg");
+    
+    
+}
+.row span{
+    position: absolute;
+    top:0;
+    left:25%;
+}
+.row .span1{
+    position: absolute;
+    top:0;
+    left:38%;
+}
+.row .span2{
+    position: absolute;
+    top:0;
+    left:43%;
+}
+
+.btn2{
+    background-image: url("ec73fa43-a5d9-4d91-b220-10eaaec43134.jpg");
+}
+.btn3{
+    background-image: url("How-And-Why-group-discussion-is-Important-in-Teaching.jpg");
+}
+.btn4{
+    background-image: url("trip-1525751621.jpg");
+}
+
+.social-icon {
+    margin: 20px 10px;
+  }
+  
+.hoveron1,.hoveron2,.hoveron3,.hoveron4{
+    position: absolute;
+    bottom:0;
+    font-family: cursive;
+    font-size:2rem;
+    display: none;
+}
+
+.row button:hover{
+    border:4px;
+}
+
+a{
+    color:black;
+}
